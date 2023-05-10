@@ -18,6 +18,7 @@ public class FindDuplicateNumber {
 		}
 		
 		// there is second method also by using HashSet
+		// it is the easiest way to do this program.
 		
 		Set<Integer> store = new HashSet<Integer>();
 		for(int i=0; i<a.length;i++) {
